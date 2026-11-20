@@ -1,4 +1,5 @@
 # baseSpringBoot
+## Arthur LECLERC
 
 A Spring Boot application using Java 21, Maven, and PostgreSQL. Docker Compose starts the application and its database together.
 
