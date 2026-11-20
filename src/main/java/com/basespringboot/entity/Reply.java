@@ -9,13 +9,13 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Entity 
-@Getter 
-@Setter 
+@Getter // Getters 
+@Setter // Setters
 public class Reply {
-    @Id 
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id // Primary Key
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // Auto Increment
     private Long reply_id;
     
-    @NotBlank 
+    @NotBlank // Not Null
     private String reply_content;
 }
