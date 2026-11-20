@@ -19,6 +19,5 @@ public class Post {
     @NotBlank 
     private String post_title;
 
-    @NotBlank 
     private String post_desc;
 }
