@@ -9,14 +9,14 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Entity
-@Getter 
-@Setter  
+@Getter // Getters 
+@Setter // Setters
 public class Post {
-    @Id 
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id // Primary key
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // Auto increment
     private Long post_id;
 
-    @NotBlank 
+    @NotBlank // Not null
     private String post_title;
 
     private String post_desc;
